@@ -1,5 +1,10 @@
 [
-    {
-        "email": "test@test.com"
-    }
+  {
+    "email": "test@test.com"
+  },
+  {
+    "email": "demo@demo.com",
+    "password": "696b6d7b3440d77b5534e56cad46ec02e6f705ccba72c16d3d9cb9731b928fd92987b14c5917fd1b1577b02cb729daa807b1f6fbbc53677c7333aa7f22767cc1.b0da516f3728c9f4",
+    "id": "56824f93"
+  }
 ]
