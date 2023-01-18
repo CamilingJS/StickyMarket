@@ -4,7 +4,7 @@
 <img align="center" src="https://cdn.pixabay.com/photo/2017/10/26/17/51/under-construction-2891888__480.jpg" width="100%" alt="www.jaycam.dev" >
 </a>
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
+**Link to project:** [https://jaycam.dev/]
 
 ![alt tag](http://placecorgi.com/1200/650)
 
@@ -26,8 +26,8 @@ No matter what your experience level, being an engineer means continuously learn
 ## Examples:
 Take a look at these couple examples that I have in my own portfolio:
 
-**Palettable:** https://github.com/alecortega/palettable
+**Palettable:** https://github.com/
 
-**Twitter Battle:** https://github.com/alecortega/twitter-battle
+**Twitter Battle:** https://github.com/
 
-**Patch Panel:** https://github.com/alecortega/patch-panel
+**Patch Panel:** https://github.com/
