@@ -28,7 +28,7 @@ router.post(
 
     console.log(req.file);
 
-    res.send('submitted');
+    res.redirect('/admin/products');
   }
 );
 
