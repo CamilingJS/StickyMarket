@@ -5,7 +5,8 @@ module.exports = ({ content }) => {
       <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Shop</title>
+        <title>Sticky Market</title>
+        <link rel="icon" type="image/x-icon" href="/images/StickyMarket-favicon.svg">
         
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
         <link href="/css/main.css" rel="stylesheet">
@@ -41,7 +42,7 @@ module.exports = ({ content }) => {
             <div class="container navbar-container">
               <div>
                 <a href="/">
-                  <h3 class="title">EComm Shop</h3>
+                  <div title="Sticky Market Logo" class="logo" ></div>
                 </a>
               </div>
               <div class="navbar-item">
