@@ -1,32 +1,19 @@
 [
   {
-    "items": [],
-    "id": "cafda8fb"
-  },
-  {
     "items": [
       {
-        "id": "62b582ba",
-        "quantity": 2
-      },
-      {
-        "id": "ac3d7258",
-        "quantity": 1
-      }
-    ],
-    "id": "fb1e6e85"
-  },
-  {
-    "items": [
-      {
-        "id": "ac3d7258",
+        "id": "8ee4f3ff",
         "quantity": 1
       },
       {
-        "id": "ed1a0390",
+        "id": "35ed3849",
+        "quantity": 1
+      },
+      {
+        "id": "c5dea740",
         "quantity": 1
       }
     ],
-    "id": "000784db"
+    "id": "51536e7b"
   }
 ]

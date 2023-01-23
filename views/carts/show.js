@@ -7,7 +7,7 @@ module.exports = ({ items }) => {
     // }
 
     const totalPrice = items.reduce((prev, item)=>{
-        return prev + item.quantity * item.product.price; 
+        return prev + item.quantity * item.product.price
     }, 0);
 
   const renderedItems = items
