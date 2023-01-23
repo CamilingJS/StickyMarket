@@ -4,14 +4,18 @@ module.exports = ({ products }) => {
   const renderedProducts = products
     .map(product => {
       return `
-        <div class="column is-one-quarter">
+        <div class="column is-one-third">
           <div class="card product-card">
             <figure>
               <img src="data:image/png;base64, ${product.image}"/>
             </figure>
             <div class="card-content">
-              <h3 class="subtitle">${product.title}</h3>
-              <h5>$${product.price}</h5>
+              <div style="display:flex; align-items:stretch, justify-content: space-between" >
+                <h5 class="subtitle" style="max-width: 16ch" >${product.title}</h5>
+                <h5 class="subtitle" style="margin-left: 8px" > <b> $${product.price}</b></h5>
+              </div>
+              <p>${product.description}</p>
+              
             </div>
             <footer class="card-footer">
               <form action="/cart/products" method="POST">

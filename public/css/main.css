@@ -8,7 +8,6 @@ body {
 
 .product-card figure {
   text-align: center;
-  padding: 5px;
 }
 
 .navbar ul.social {
@@ -49,10 +48,18 @@ body {
 .navbar-top .container.navbar-container,
 .navbar-bottom .container.navbar-container {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   padding: 0px 5%;
-  align-items: center;
+  align-items: flex-start;
 }
+@media (min-width: 530px) {
+  .navbar-top .container.navbar-container,
+  .navbar-bottom .container.navbar-container {
+    flex-direction: row;
+  }
+}
+
 
 #cart h3 {
   margin-top: 50px;

@@ -28,8 +28,8 @@ router.post(
   handleErrors(productsNewTemplate),
   async (req, res) => {
     const image = req.file.buffer.toString('base64');
-    const { title, price } = req.body;
-    await productsRepo.create({ title, price, image });
+    const { title, price, description } = req.body;
+    await productsRepo.create({ title, price, description, image });
 
     res.redirect('/admin/products');
   }
