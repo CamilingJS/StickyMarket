@@ -12,17 +12,17 @@ module.exports = ({ req, errors }) => {
               <h1 class="title">Sign Up</h1>
               <div class="field">
                 <label class="label">Email</label>
-                <input class="input" placeholder="Email" name="email" />
+                <input class="input" autocomplete="off" required minlength="6" maxlength="30" placeholder="Email" name="email" type="email"/>
                 <p class="help is-danger">${getError(errors, 'email')}</p>
               </div>
               <div class="field">
                 <label class="label">Password</label>
-                <input class="input" placeholder="Password" name="password" type="password" />
+                <input class="input" autocomplete="off" required minlength="6" maxlength="30" placeholder="Password" name="password" type="password" />
                 <p class="help is-danger">${getError(errors, 'password')}</p>
               </div>
               <div class="field">
                 <label class="label">Password Confirmation</label>
-                <input class="input" placeholder="Password Confirmation" name="passwordConfirmation" type="password" />
+                <input class="input" autocomplete="off" required minlength="6" maxlength="30" placeholder="Confirm Password" name="passwordConfirmation" type="password"  />
                 <p class="help is-danger">${getError(
                   errors,
                   'passwordConfirmation'

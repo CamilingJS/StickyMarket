@@ -12,7 +12,7 @@ module.exports = ({ products }) => {
             <div class="card-content">
               <div style="display:flex; align-items:stretch, justify-content: space-between" >
                 <h5 class="subtitle" style="max-width: 16ch" >${product.title}</h5>
-                <h5 class="subtitle" style="margin-left: 8px" > <b> $${product.price}</b></h5>
+                <h5 class="subtitle" style="margin-left: 8px; min-width:3ch" > <b> $${product.price}</b></h5>
               </div>
               <p>${product.description}</p>
               

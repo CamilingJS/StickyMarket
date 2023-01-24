@@ -20,20 +20,18 @@ module.exports = ({ content }) => {
               <div>
                 <ul class="social">
                   <li>
-                    <a href=""><i class="fa fa-phone"></i> +1 650 498 1818</a>
+                    <a href="tel:+16504981818"><i class="fa fa-phone"></i> +1 650 498 1818</a>
                   </li>
                   <li>
-                    <a href=""><i class="fa fa-envelope"></i> info@stickymarket.com</a>
+                    <a href="mailto:info@stickymarket.com"><i class="fa fa-envelope"></i> info@stickymarket.com</a>
                   </li>
                 </ul>
               </div>
               <div>
                 <ul class="social">
-                  <li><a href=""><i class="fab fa-facebook"></i></a></li>
-                  <li><a href=""><i class="fab fa-twitter"></i></a></li>
-                  <li><a href=""><i class="fab fa-linkedin"></i></a></li>
-                  <li><a href=""><i class="fab fa-dribbble"></i></a></li>
-                  <li><a href=""><i class="fab fa-google-plus"></i></a></li>
+                  <li><a href="https://www.instagram.com/jaycamdev/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="https://twitter.com/JayCamDev" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="https://www.linkedin.com/in/jonathancamiling/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -48,10 +46,13 @@ module.exports = ({ content }) => {
               <div class="navbar-item">
                 <div class="navbar-buttons">
                   <div class="navbar-item">
-                    <a href="/"><i class="fa fa-star"></i> Products</a>
+                    <a href="/"><i class="fa fa-bookmark"></i> PRODUCTS</a>
                   </div>
                   <div class="navbar-item">
-                    <a href="/cart"><i class="fa fa-shopping-cart"></i> Cart</a>
+                    <a href="/cart"><i class="fa fa-shopping-cart"></i> CART</a>
+                  </div>
+                  <div class="navbar-item">
+                    <a href="/signin"><i class="fa fa-toolbox"></i> ADMIN ACCESS</a>
                   </div>
                 </div>
               </div>
@@ -60,6 +61,11 @@ module.exports = ({ content }) => {
         </header>
 
         ${content}
+
+        <footer style="background-color:black, height:300px, width: 100%"  class="mainFooter >
+          <h1>FOOTER</h1>
+        </footer>
+
       </body>
     </html>
   `;

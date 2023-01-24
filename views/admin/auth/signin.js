@@ -11,12 +11,12 @@ module.exports = ({ errors }) => {
               <h1 class="title">Sign in</h1>
               <div class="field">
                 <label class="label">Email</label>
-                <input required class="input" placeholder="Email" name="email" />
+                <input class="input" autocomplete="off" required minlength="6" maxlength="30" placeholder="Email" name="email" type="email" />
                 <p class="help is-danger">${getError(errors, 'email')}</p>
               </div>
               <div class="field">
                 <label class="label">Password</label>
-                <input required class="input" placeholder="Password" name="password" type="password" />
+                <input class="input" autocomplete="off" required minlength="6" maxlength="30" placeholder="Password" name="password" type="password" />
                 <p class="help is-danger">${getError(errors, 'password')}</p>
               </div>
               <button class="button is-primary">Submit</button>
