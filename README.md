@@ -1,33 +1,19 @@
-# Sticky Marktet 
-### Sticky Market is an E-Commerce application selling a variety of stickers 
+# Sticky Market
+### Link to project: [https://stickymarket.onrender.com/]
+
+## Sticky Market is an E-Commerce Web Application selling awesome stickers for Crypto Currency enthusiasts.
 <a href="https://drive.google.com/file/d/1j8zCWbP4_NWWMCPOuo10u1rU4zB6s8wM/view?usp=sharing" target="_blank">
-<img align="center" src="https://cdn.pixabay.com/photo/2017/10/26/17/51/under-construction-2891888__480.jpg" width="100%" alt="www.jaycam.dev" >
+<img align="center" src="https://res.cloudinary.com/dxctpvd8v/image/upload/v1674540813/StickyMarket_sylelb.webp" width="100%" alt="www.jaycam.dev" >
 </a>
-
-**Link to project:** [https://jaycam.dev/]
-
-![alt tag](http://placecorgi.com/1200/650)
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, Framework of choice
-
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+## Tech used: HTML, CSS, NodeJS, Express, and Vanilla JavaScript
+### The project is an e-commerce web application built using HTML, CSS, Vanilla JavaScript, NodeJS, and Express. It allows admin users to create an admin account and then add, edit, and delete sticker items that they would like to sell on the platform. In addition, customers can add items to a cart without the need to create or sign in to an account. The application utilizes Express for the server-side routing and NodeJS for the backend functionality. The frontend of the application is built using HTML and CSS for the layout and styling, and Vanilla JavaScript for the dynamic functionality such as form validation, displaying the list of items for sale, and adding items to the cart. The application has a role-based system, where admin users can login to their account and add, edit, and delete items from the platform, while customers can only browse and purchase items. This allows for a secure and efficient management of the e-commerce platform. The application provides a seamless and user-friendly experience for buying and selling stickers online, with the added functionality of an admin management system.
 
 ## Optimizations
-*(optional)*
-
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+### 1. Payment gateway integration : Integrate a payment gateway such as Stripe or PayPal to allow customers to make online payments securely.
+### 2. Customer records: Implement a route that will allow validated customer users to save their shopping progress and complete their online transactions
 
 ## Lessons Learned:
-
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *fuck yeah I did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
-
-## Examples:
-Take a look at these couple examples that I have in my own portfolio:
-
-**Palettable:** https://github.com/
-
-**Twitter Battle:** https://github.com/
-
-**Patch Panel:** https://github.com/
+### As a React developer and enthusisast this project has allowed me to hone in on my Javascript fundamentals. It's awesome to see the nuances of Javascript and have a picture of the reasons of the decisions the React team has made to create the library. 
