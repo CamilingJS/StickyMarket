@@ -20,6 +20,8 @@ app.use(productsRouter);
 app.use(adminProductsRouter);
 app.use(cartsRouter);
 
-app.listen(3000, () => {
-  console.log('Listening');
+const PORT = process.env.PORT || 3000
+
+app.listen(PORT, () => {
+  console.log(`Listening on ${PORT}`);
 });
