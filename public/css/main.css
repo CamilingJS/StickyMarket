@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
 body {
   --primary: black;
   --secondary: gold;
   --white: #fbfbfb;
   --dark: #2e2532;
   --black: #201a23;
+  font-family: 'Archivo Black', sans-serif;
 }
 
 .product-card figure {
@@ -173,3 +176,18 @@ body {
   margin: 8px 0px;
 }
 
+.signIn{
+  border-radius: 8px;
+  margin: 16px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.signInImg{
+  background-image: url("https://res.cloudinary.com/dxctpvd8v/image/upload/v1674617842/StickyMarket/stickersonlaptop_qvnpsi.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+  height: 500px;
+  border-radius: 8px;
+  margin: 16px;
+}
