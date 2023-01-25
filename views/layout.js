@@ -20,11 +20,13 @@ module.exports = ({ content }) => {
                     <div title="Sticky Market Logo" class="logo-white" ></div>
                     </a>
                   </div>
-                  <div class="navbar-selection" >
-                    <a href="/cart">CART</a>
-                    <a href="/">PRODUCTS</a>
-                    <a href="/signin">ADMIN ACCESS</a>
-                  </div>     
+                  
+                    <ul class="navbar-selection" >
+                      <li><a href="/cart">CART</a></li>
+                      <li><a href="/">PRODUCTS</a></li>
+                      <li><a href="/signin">ADMIN ACCESS</a></li>
+                    </ul>
+                     
           </nav>
           
         </header>

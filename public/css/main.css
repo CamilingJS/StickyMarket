@@ -37,12 +37,10 @@ body {
   .navbar-top.navbar{
     flex-direction: row;
     justify-content: space-between;
-  }
+  } 
   .navbar-selection{
-    display: flex;
     flex-direction: row;
   }
-  
 }
 
 
