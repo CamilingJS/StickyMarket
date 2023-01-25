@@ -7,26 +7,12 @@ body {
   --dark: #2e2532;
   --black: #201a23;
   font-family: 'Archivo Black', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .product-card figure {
   text-align: center;
-}
-
-.navbar ul.social {
-  display: flex;
-}
-.navbar ul.social li {
-  margin-right: 20px;
-  text-decoration: none;
-}
-.navbar ul.social li a {
-  color: var(--white);
-}
-.navbar-item a {
-  color: black;
-  text-decoration: none;
-  margin: 0 4px; 
 }
 
 .banner {
@@ -41,31 +27,45 @@ body {
   margin-right: 10px;
 }
 
-.navbar-bottom.navbar {
-  align-items: center;
-}
-
 .navbar-top.navbar {
   background-color: var(--primary);
-}
-
-.navbar-buttons {
-  display: flex;
-}
-
-.navbar-top .container.navbar-container,
-.navbar-bottom .container.navbar-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  padding: 0px 5%;
-  align-items: flex-start;
+  align-items: flex-end;
 }
-@media (min-width: 530px) {
-  .navbar-top .container.navbar-container,
-  .navbar-bottom .container.navbar-container {
+@media screen and (min-width: 700px){
+  .navbar-top.navbar{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .navbar-selection{
+    display: flex;
     flex-direction: row;
   }
+  
+}
+
+
+.logo-white{
+  background-image: url('../images/StickyMarket-White.svg');
+  width: 300px;
+  height: 50px;
+  background-repeat: no-repeat;
+  margin: 16px;
+}
+
+.navbar-selection{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  margin: 8px 16px;
+  color: var(--white);
+  font-family: 'Archivo Black', sans-serif;
+}
+.navbar-selection a {
+  text-decoration: none;
+  color: inherit; 
+  cursor: pointer;
 }
 
 
@@ -160,13 +160,7 @@ body {
   align-items: center;
 }
 
-.logo{
-  background-image: url('../images/StickyMarket.svg');
-  width: 300px;
-  height: 45px;
-  background-repeat: no-repeat;
-  margin-top: 8px;
-}
+
 
 .column a {
   color: black;
