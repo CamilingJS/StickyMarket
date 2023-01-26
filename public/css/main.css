@@ -37,9 +37,13 @@ body {
   .navbar-top.navbar{
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
   } 
-  .navbar-selection{
+  .navbar-top.navbar ul{
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
   }
 }
 

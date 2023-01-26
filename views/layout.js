@@ -35,8 +35,7 @@ module.exports = ({ content }) => {
             <li><a href="/cart">Cart</a></li>
             <li><a href="https://www.ayeyo.me/jonathancamiling" target="_blank">Contact</a></li>
           </ul>
-            <h1>&copy Jonathan Camiling | All Rights Reserved | Powered By: <a href="https://jaycam.dev/" target="_blank" >JayCam.Dev</a></h1>
-            
+          <h1>&copy Jonathan Camiling | All Rights Reserved | Powered By: <a href="https://jaycam.dev/" target="_blank" >JayCam.Dev</a></h1>
         </footer>
       </body>
     </html>
