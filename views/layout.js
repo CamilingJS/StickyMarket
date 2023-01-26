@@ -36,7 +36,7 @@ module.exports = ({ content }) => {
             <button><a style="text-decoration:none; color: inherit" href="/signin">Log In</a></button></div>
           </div>
           <div class="banner-right">
-            <div class="banner-right-img">
+            <div title="Animation" aria-label="Animation" class="banner-right-img">
             </div>
           </div>
         </section>

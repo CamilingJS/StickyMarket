@@ -33,11 +33,11 @@ module.exports = ({ products }) => {
 
   return layout({
     content: `
-      <section class="banner">
-        <div class="container">
-          <div class="columns is-centered">
-            <img src="/images/banner.jpg" />
-          </div>
+      <section class="promo-banner-container">
+        <div class="promo-banner" >
+        <div title="This week only promo" class="promo-banner-img-left"></div>
+        <h2>Free shipping on orders over $25</h2>
+        <div title="Sticky Market Logo" class="promo-banner-img-right" ></div>
         </div>
       </section>
       
