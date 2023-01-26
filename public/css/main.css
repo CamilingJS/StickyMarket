@@ -338,3 +338,83 @@ body {
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
+.remove{
+  margin: 0 8px;
+}
+.cartTitle{
+  font-family:'Archivo Black', sans-serif; 
+  font-size: xx-large;
+}
+.itemTitle{
+  font-family:'Archivo Black', sans-serif; 
+  font-size: medium;
+}
+.priceQty{
+  font-family:'Archivo Black', sans-serif; 
+  font-size: medium;
+  min-width: 10ch;
+}
+.itemSubTotal{
+  font-family:'Archivo Black', sans-serif; 
+  font-size: medium;
+  margin-right: 8px;
+}
+
+
+.total{
+  background-color: black;
+  color: goldenrod;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 24px;
+  font-family:'Archivo Black', sans-serif; 
+  font-size: xx-large;
+}
+.buy-btn-container{
+  background-color: goldenrod;
+  padding: 16px 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  align-items: flex-end;
+  align-content: flex-end;
+  gap: 8px; 
+  margin-bottom: 160px;
+}
+.buy-btn-container button:first-of-type{
+  background-color: black;
+  color: white; 
+  height: 60px;
+  width: 120px;
+  border-radius: 40px;
+  border: none;
+  text-align: center;
+  margin: auto;
+  cursor: pointer;
+  font-size: large;
+  font-weight: bold;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buy-btn-container button:last-of-type{
+  background-color: black;
+  color: white; 
+  height: 60px;
+  width: 120px;
+  border-radius: 40px;
+  border: none;
+  text-align: center;
+  margin: auto;
+  cursor: pointer;
+  font-size: large;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

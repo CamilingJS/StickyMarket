@@ -14,24 +14,25 @@ module.exports = ({ items }) => {
     .map(item => {
       return `
         <div class="cart-item message">
-          <h3 class="subtitle">${item.product.title}</h3>
+        <div class="remove">
+        <form method="POST" action="/cart/products/delete" >
+          <input hidden value="${item.id}" name="itemId" />
+          <button class="button is-dark">                  
+            <span class="icon is-small">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
+        </form>
+      </div>
+          <h3 class="itemTitle">${item.product.title}</h3>
           <div class="cart-right">
-            <div>
+            <div class="priceQty" >
               $${item.product.price}  X  ${item.quantity} = 
             </div>
-            <div class="price is-size-4">
+            <div class="itemSubTotal is-size-4">
               $${item.product.price * item.quantity}
             </div>
-            <div class="remove">
-              <form method="POST" action="/cart/products/delete" >
-                <input hidden value="${item.id}" name="itemId" />
-                <button class="button is-danger">                  
-                  <span class="icon is-small">
-                    <i class="fas fa-times"></i>
-                  </span>
-                </button>
-              </form>
-            </div>
+            
           </div>
         </div>
       `;
@@ -44,17 +45,23 @@ module.exports = ({ items }) => {
         <div class="columns">
           <div class="column"></div>
           <div class="column is-four-fifths">
-            <h3 class="subtitle"><b>Shopping Cart</b></h3>
+            <h3 class="cartTitle"><b>Shopping Cart</b></h3>
             <div>
               ${renderedItems}
             </div>
-            <div class="total message is-info">
-              <div class="message-header">
-                Total
-              </div>
-              <h1 class="title">$${totalPrice}</h1>
-              <button class="button is-primary">Buy</button>
+            <div>
+            <div class="total">
+            <div>Total</div>
+            <h1 >$${totalPrice}</h1>
             </div>
+            <div class="buy-btn-container">
+              <button>Continue Shopping</button>
+              <button>Buy</button>
+            </div>
+            </div>
+           
+         
+            
           </div>
           <div class="column"></div>
         </div>
