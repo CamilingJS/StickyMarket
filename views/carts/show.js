@@ -55,7 +55,7 @@ module.exports = ({ items }) => {
             <h1 >$${totalPrice}</h1>
             </div>
             <div class="buy-btn-container">
-              <button>Continue Shopping</button>
+              <button><a style="color:inherit; text-decoration:none"  href="/">Continue Shopping</a></button>
               <button>Buy</button>
             </div>
             </div>
