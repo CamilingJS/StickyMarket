@@ -220,3 +220,76 @@ body {
     flex-direction: row;
   }
 }
+
+.banner-main{
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 32px; 
+  font-family: 'Archivo Black', sans-serif;
+}
+.banner-left{
+  max-width: 600px;
+  row-gap: 16px; 
+}
+.banner-left h4{
+  color: goldenrod;
+  font-size: medium;
+}
+.banner-left h1{
+  color: black;
+  font-size: xx-large;
+}
+.banner-left h5{
+  color: black;
+  font-size: small;
+  font-weight: 200;
+}
+.banner-left-buttons{
+  margin: 16px 0px;
+}
+.banner-left-buttons button:first-of-type{
+  background-color: black;
+  color: white; 
+  height: 50px;
+  width: 100px;
+  border-radius: 40px;
+  border: none;
+  text-align: center;
+  margin: auto;
+  cursor: pointer;
+  font-size: large;
+  font-weight: bold;
+}
+.banner-left-buttons button:first-of-type:hover{
+  background-color: goldenrod;
+}
+.banner-left-buttons button:nth-last-of-type(1){
+  background-color: goldenrod;
+  color: white; 
+  height: 50px;
+  width: 100px;
+  border-radius: 40px;
+  border: none;
+  text-align: center;
+  margin: auto;
+  cursor: pointer;
+  font-size: large;
+  font-weight: bold;
+}
+.banner-left-buttons button:nth-last-of-type(1):hover{
+  background-color: black;
+}
+
+.banner-right-img{
+  background-image: url("https://res.cloudinary.com/dxctpvd8v/image/upload/v1674540813/StickyMarket/StickyMarket_sylelb.webp");
+  width: 270px;
+  height: 270px;
+  background-size: cover;
+  border-radius: 100%;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}

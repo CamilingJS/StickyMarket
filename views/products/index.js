@@ -47,7 +47,7 @@ module.exports = ({ products }) => {
             <div class="column "></div>
             <div class="column is-four-fifths">
               <div>
-                <h2 class="title text-center">Featured Items</h2>
+                <h2 id="popularpicks" class="title text-center" style="font-family: 'Archivo Black', sans-serif;">Popular Picks</h2>
                 <div class="columns products">
                   ${renderedProducts}  
                 </div>

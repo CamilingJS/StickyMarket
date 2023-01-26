@@ -25,8 +25,21 @@ module.exports = ({ content }) => {
               <li><a href="/signin">ADMIN ACCESS</a></li>
             </ul>       
           </nav>
-          
         </header>
+        <section class="banner-main" >
+          <div class="banner-left">
+            <h4>EASY ONLINE ORDERING, LIGHTNING FAST TURNAROUND</h4>
+            <h1>Get your Crypto Currency Stickers, Labels, Decals & More!</h1>
+            <h5>Easily create & print custom crypto currency themed products for your business, brand, and beyond. Order in any size, die-cut shape, and quantity.</h5>
+            <div class="banner-left-buttons">
+            <button><a style="text-decoration:none; color: inherit" href="#popularpicks">Shop Now</a></button>
+            <button><a style="text-decoration:none; color: inherit" href="/signin">Log In</a></button></div>
+          </div>
+          <div class="banner-right">
+            <div class="banner-right-img">
+            </div>
+          </div>
+        </section>
         ${content}
         <footer class="footer-main" >
           <ul class="footer-links" >
