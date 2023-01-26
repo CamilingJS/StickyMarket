@@ -11,37 +11,33 @@ module.exports = ({ content }) => {
         <link href="/css/main.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"></link>
       </head>
-
       <body>
         <header>
           <nav class="navbar navbar-top">
-                  <div class="logo-container" >
-                    <a href="/">
-                    <div title="Sticky Market Logo" class="logo-white" ></div>
-                    </a>
-                  </div>
-                  
-                    <ul class="navbar-selection" >
-                      <li><a href="/cart">CART</a></li>
-                      <li><a href="/">PRODUCTS</a></li>
-                      <li><a href="/signin">ADMIN ACCESS</a></li>
-                    </ul>
-                     
+            <div class="logo-container" >
+              <a href="/">
+              <div title="Sticky Market Logo" class="logo-white" ></div>
+              </a>
+            </div>
+            <ul class="navbar-selection" >
+              <li><a href="/cart">CART</a></li>
+              <li><a href="/">PRODUCTS</a></li>
+              <li><a href="/signin">ADMIN ACCESS</a></li>
+            </ul>       
           </nav>
           
         </header>
-
         ${content}
-
-        <footer style="background-color:black, height:300px, width: 100%"  class="mainFooter >
-          <h1>FOOTER</h1>
-          <ul class="navbar-list">
-                  <li><a href="https://www.instagram.com/jaycamdev/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                  <li><a href="https://twitter.com/JayCamDev" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                  <li><a href="https://www.linkedin.com/in/jonathancamiling/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                </ul>
+        <footer class="footer-main" >
+          <ul class="footer-links" >
+            <li><a href="/">Home</a></li>
+            <li><a href="/signin">Admin Access</a></li>
+            <li><a href="/cart">Cart</a></li>
+            <li><a href="https://www.ayeyo.me/jonathancamiling" target="_blank">Contact</a></li>
+          </ul>
+            <h1>&copy Jonathan Camiling | All Rights Reserved | Powered By: <a href="https://jaycam.dev/" target="_blank" >JayCam.Dev</a></h1>
+            
         </footer>
-
       </body>
     </html>
   `;

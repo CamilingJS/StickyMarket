@@ -183,3 +183,36 @@ body {
   border-radius: 8px;
   margin: 16px;
 }
+
+.footer-main{
+  font-family: 'Archivo Black', sans-serif;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+}
+.footer-main a{
+  text-decoration: none;
+  color: inherit;
+}
+.footer-links{
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+}
+.footer-links li{
+  margin: 8px;
+}
+@media screen and (min-width: 700px) {
+  .footer-links{
+    flex-direction: row;
+  }
+}
