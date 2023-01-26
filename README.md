@@ -3,7 +3,7 @@
 
 ## Sticky Market is an E-Commerce Web Application selling awesome stickers for Crypto Currency enthusiasts.
 <a href="https://drive.google.com/file/d/1j8zCWbP4_NWWMCPOuo10u1rU4zB6s8wM/view?usp=sharing" target="_blank">
-<img align="center" src="https://res.cloudinary.com/dxctpvd8v/image/upload/v1674540813/StickyMarket_sylelb.webp" width="100%" alt="www.jaycam.dev" >
+<img align="center" src="https://res.cloudinary.com/dxctpvd8v/image/upload/v1674724165/StickyMarket/StickyMarketGithubMock_kuzka3.png" width="100%" alt="www.jaycam.dev" >
 </a>
 
 ## How It's Made:
