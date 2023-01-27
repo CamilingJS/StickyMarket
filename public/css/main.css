@@ -478,3 +478,35 @@ body {
 }
 
 
+
+@media screen and (max-width: 500px){
+  tr{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    margin: 16px;
+  }
+  th{
+    display: none;
+  }
+  .admin table td:first-of-type {
+    width: 100%;
+  }
+  td{
+    width: 100%;
+  }
+  td form, .editBtn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .prodTitle h1{
+
+    margin: 16px
+  }
+}
+
+
+

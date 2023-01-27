@@ -8,7 +8,7 @@ module.exports = ({ products }) => {
         <td style="font-family:'Archivo Black', sans-serif" >${product.title}</td>
         <td>${product.description}</td>
         <td style="font-family:'Archivo Black', sans-serif">$${product.price}.00</td>
-        <td>
+        <td class="editBtn">
           <a href="/admin/products/${product.id}/edit">
             <button style="border-radius:40px; color: white; font-family:'Archivo Black', sans-serif;" class="button is-link">
               Edit
@@ -27,8 +27,8 @@ module.exports = ({ products }) => {
 
   return layout({
     content: `
-      <div class="control">
-        <h1 class="subtitle">Products</h1>  
+      <div class="control prodTitle">
+        <h1 style="font-family:'Archivo Black'" class="subtitle">Products</h1>  
         <a style="border-radius:40px; color: white; font-family:'Archivo Black', sans-serif;" href="/admin/products/new" class="button is-primary">New Product</a>
       </div>
       <table class="table">
