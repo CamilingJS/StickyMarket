@@ -418,3 +418,56 @@ body {
   align-items: center;
 }
 
+.navbar-admin{
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 160px; 
+  color: white; 
+  font-family: 'Archivo Black', sans-serif;
+  font-size: x-large;
+}
+.nav-admin-selection{
+  gap: 8px;
+  row-gap: 8px;
+  font-size: medium;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.navAdmProductsBtn{
+  background-color: goldenrod;
+  width: 90px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+}
+.navAdmProductsBtn:hover{
+  background-color: white;
+  color: black; 
+}
+.navAdmSignoutBtn{
+  background-color: white;
+  color: black;
+  width: 90px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+}
+.navAdmSignoutBtn:hover{
+  background-color: goldenrod;
+  color: white; 
+}
+
+.column form{
+  font-family: 'Archivo Black', sans-serif;
+}
+
+

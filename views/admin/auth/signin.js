@@ -19,9 +19,9 @@ module.exports = ({ errors }) => {
                 <input class="input" autocomplete="off" required minlength="6" maxlength="30" placeholder="Password" name="password" type="password" />
                 <p class="help is-danger">${getError(errors, 'password')}</p>
               </div>
-              <button class="button is-primary">Submit</button>
+              <button style="border-radius:40px; color: white; font-family:'Archivo Black', sans-serif;" class="button is-black">Submit</button>
             </form>
-            <a href="/signup">Need an account? Sign Up</a>
+            <a style="font-family:'Archivo Black', sans-serif;" href="/signup">Need an account? Sign Up</a>
           </div>
           <div class="column is-one-half signInImg" ></div>
         </div>

@@ -13,22 +13,18 @@ module.exports = ({ content }) => {
 
       <body class="admin">
         <header>
-          <nav class="navbar navbar-bottom">
-            <div class="container navbar-container">
-              <div>
-                <a href="/admin/products">
-                  <h3 class="title">Admin Panel</h3>
+          <nav class="navbar-admin">
+            
+              
+                <a style="color:inherit; text-decoration:none" href="/admin/products">
+                  <h1 class="adminTitle">Admin Panel</h1>
                 </a>
-              </div>
-              <div class="navbar-item">
-                <div class="navbar-buttons">
-                  <div class="navbar-item">
-                    <a href="/"><i class="fa fa-bookmark"></i> Products </a>
-                    <a href="/signout"><i style="margin:0, 4px" class="fa fa-stop"></i> Sign Out</a>
-                  </div>
+                <div class="nav-admin-selection" >
+                  <div class="navAdmProductsBtn" ><a style="color:inherit; text-decoration:none" href="/">Products</a></div>
+                  <div class="navAdmSignoutBtn" ><a style="color:inherit; text-decoration:none" href="/signout">Sign Out</a></div>
                 </div>
-              </div>
-            </div>
+           
+           
           </nav>
         </header>
         <div class="container">
