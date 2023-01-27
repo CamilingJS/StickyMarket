@@ -22,7 +22,7 @@ module.exports = ({ content }) => {
             <ul class="navbar-selection" >
               <li><a href="/cart">CART</a></li>
               <li><a href="/">PRODUCTS</a></li>
-              <li><a href="/signin">ADMIN ACCESS</a></li>
+              <li><a href="/signin">LOGIN</a></li>
             </ul>       
           </nav>
         </header>

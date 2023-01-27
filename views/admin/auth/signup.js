@@ -28,9 +28,9 @@ module.exports = ({ req, errors }) => {
                   'passwordConfirmation'
                 )}</p>
               </div>
-              <button class="button is-primary">Submit</button>
+              <button style="border-radius:40px; color: white; font-family:'Archivo Black', sans-serif;" class="button is-black">Submit</button>
             </form>
-            <a href="/signin">Have an account? Sign In</a>
+            <a style="font-family:'Archivo Black', sans-serif;"  href="/signin">Have an account? Sign In</a>
           </div>
         </div>
       </div>

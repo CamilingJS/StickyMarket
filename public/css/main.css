@@ -470,4 +470,11 @@ body {
   font-family: 'Archivo Black', sans-serif;
 }
 
+.signOutPageOptions a button:first-child:hover{
+  background-color: firebrick;
+}
+.signOutPageOptions a button:nth-child(2) {
+  background-color: firebrick;
+}
+
 
