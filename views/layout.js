@@ -3,10 +3,10 @@ module.exports = ({ content }) => {
     <!DOCTYPE html>
       <html lang="en">
       <head>
+        <link rel="shortcut icon" type="image/x-icon" href="/images/StickyMarket-favicon.svg">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sticky Market</title>
-        <link rel="icon" type="image/x-icon" href="/images/StickyMarket-favicon.svg">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
         <link href="/css/main.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"></link>
